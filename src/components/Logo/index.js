@@ -1,8 +1,10 @@
+import logo from "../../images/logo-reviveauto.png"
+
 export default function Logo(){
     return(
         <div className="flex">
-            <div className="size-10 bg-[#AA0000] border-4 border-solid border-[#E10029] mr-2"></div>
-            <p className="text-3xl text-[#E10029] font-medium">Revive<b>Auto</b></p>
+            <img src={logo} alt="Imagem logo" />
+            <p className="text-3xl text-[#FE0000] font-medium">Revive<b>Auto</b></p>
         </div>
     )
 }

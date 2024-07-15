@@ -3,7 +3,7 @@ import AreaResultado from "../AreaResultado"
 
 export default function AreaCentro(){
     return(
-        <div className="w-9/12 h-[450px] bg-white mt-20 rounded-3xl flex justify-center items-center cursor-default">
+        <div className="w-10/12 h-fit bg-white my-auto rounded-3xl flex flex-col justify-center items-center cursor-default lg:h-[70%] xl:w-8/12 xl:h-[70%] lg:flex-row ">
             <AreaPesquisa/>
             <AreaResultado/>
         </div>
